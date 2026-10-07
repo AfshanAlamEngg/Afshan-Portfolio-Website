@@ -1,0 +1,83 @@
+export const portfolioData = {
+  name: 'Afshan Alam',
+  title: 'Software Engineer',
+  total_experience: '1 Year Professional Experience',  // ← CHANGED from total_experience to experience
+  email: 'afshanalamengg@gmail.com',
+  phone: '+91 7302237973',
+  location: 'Bengaluru, IN',
+  avatar: 'https://i.pravatar.cc/300?img=11',
+  bio: "I'm a software developer with one year of professional experience, currently working at Bharat Electronics Limited - A Navratna PSU under ministry of defence, Bengaluru India. I specialize in building modern web applications using React, TypeScript, and Material-UI. I enjoy turning complex problems into elegant, intuitive interfaces.",
+  bio2: "Outside of coding, I contribute to open-source projects, write technical articles, and explore new design trends. I believe in continuous learning and collaboration.",
+  social: {
+    github: 'https://github.com/AfshanAlamEngg',
+    linkedin: 'https://linkedin.com/in/afshanalam',
+    twitter: 'https://twitter.com',
+    email: 'mailto:alex@devportfolio.dev',
+  },
+  skills: [
+    { name: 'React', level: 85, icon: 'Code' },
+    { name: 'TypeScript', level: 75, icon: 'Code' },
+    { name: 'Node.js', level: 70, icon: 'Storage' },
+    { name: 'Python', level: 65, icon: 'Code' },
+    { name: 'Material-UI', level: 80, icon: 'DesignServices' },
+    { name: 'Firebase', level: 60, icon: 'Storage' },
+    { name: 'Git/GitHub', level: 78, icon: 'GitHub' },
+    { name: 'REST APIs', level: 72, icon: 'Language' },
+  ],
+  projects: [
+    {
+      title: 'EcoTrack Dashboard',
+      description: 'Sustainability analytics for enterprises using React + D3.',
+      tech: ['React', 'D3', 'Firebase'],
+      icon: 'TrendingUp',
+      demo: '#',
+      code: '#',
+    },
+    {
+      title: 'DevConnect',
+      description: 'Social platform for developers with real-time chat.',
+      tech: ['Next.js', 'Node', 'Socket.io'],
+      icon: 'ChatBubbleOutline',
+      demo: '#',
+      code: '#',
+    },
+    {
+      title: 'Portfolio Builder',
+      description: 'Drag-and-drop tool to create developer portfolios.',
+      tech: ['Vite', 'MUI', 'Framer'],
+      icon: 'Build',
+      demo: '#',
+      code: '#',
+    },
+    {
+      title: 'AI Recipe Generator',
+      description: 'GPT-3 powered recipe suggestions based on ingredients.',
+      tech: ['Python', 'Flask', 'React'],
+      icon: 'Lightbulb',
+      demo: '#',
+      code: '#',
+    },
+  ],
+  experience: [
+    {
+      title: 'Junior Frontend Developer',
+      company: 'TechStart Inc.',
+      year: '2025 - Present',
+      description: 'Developing and maintaining React-based web apps, collaborating with design and backend teams.',
+    },
+    {
+      title: 'Frontend Intern',
+      company: 'WebForge Studio',
+      year: '2024 - 2025',
+      description: 'Built responsive UIs with Material-UI, optimized performance, and participated in code reviews.',
+    },
+  ],
+  education: [
+    {
+      degree: 'B.S. in Computer Science',
+      school: 'University of Technology',
+      year: '2020 - 2024',
+      description: 'GPA: 3.8/4.0 · Relevant coursework: Web Dev, Algorithms, HCI.',
+    },
+  ],
+};
